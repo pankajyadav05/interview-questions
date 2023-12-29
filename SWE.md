@@ -139,6 +139,12 @@
 
 9. ### What is the purpose of setTimeout function?
 
-   Run the application on any port above 1024, then put a reverse proxy like [nginx](http://nginx.org/) in front of it.
+   The `setTimeout(cb, ms)` global function is used to run callback `cb` after at least `ms` milliseconds. The actual delay depends on external factors like OS timer granularity and system load. A timer cannot span more than 24.8 days.
 
-**[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Back to Top](#table-of-contents)**
+
+10. ### What is the purpose of setTimeout function?
+
+    Run the application on any port above 1024, then put a reverse proxy like [nginx](http://nginx.org/) in front of it.
+
+    **[⬆ Back to Top](#table-of-contents)**
