@@ -4,4 +4,4 @@
 
 ### For Software Engineer, see [SWE Questions](SWE.md).
 
-### For Software Engineer, see [Product Manager Questions](PM.md).
+### For Product Manager, see [PM Questions](PM.md).
