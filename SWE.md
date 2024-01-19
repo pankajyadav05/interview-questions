@@ -14,10 +14,11 @@
 | 8   | [What is Callback Hell?](#what-is-callback-hell)                                                                       |
 | 9   | [What is the purpose of setTimeout function?](#what-is-the-purpose-of-settimeout-function)                             |
 | 10  | [How can you listen on port 80 with Node?](#how-can-you-listen-on-port-80-with-node)                                   |
+| 11  | [What is an Event Emitter in Node.js?](#what-is-an-event-emitter-in-node)                                              |
 |     | **AWS**                                                                                                                |
-| 11  | [Brief about S3 service in AWS?](#brief-about-s3-service-in-aws)                                                       |
-| 12  | [What is CloudFront?](#what-is-cloudfront)                                                                             |
-| 13  | [How do you safeguard your EC2 instances running in a VPC?](#how-do-you-safeguard-your-ec2-instances-running-in-a-vpc) |
+| 12  | [Brief about S3 service in AWS?](#brief-about-s3-service-in-aws)                                                       |
+| 13  | [What is CloudFront?](#what-is-cloudfront)                                                                             |
+| 14  | [How do you safeguard your EC2 instances running in a VPC?](#how-do-you-safeguard-your-ec2-instances-running-in-a-vpc) |
 
 1. ### What is Virtual DOM?
 
@@ -153,19 +154,39 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-11. ### Brief about S3 service in AWS?
+11. ### What is an Event Emitter in Node.js?
+
+    EventEmitter is a Node.js class that includes all the objects that are basically capable of emitting events. This can be done by attaching named events that are emitted by the object using an eventEmitter.on() function. Thus whenever this object throws an even the attached functions are invoked synchronously.
+
+    ```javascript
+    const EventEmitter = require("events");
+
+    class MyEmitter extends EventEmitter {}
+
+    const myEmitter = new MyEmitter();
+
+    myEmitter.on("event", () => {
+      console.log("an event occurred!");
+    });
+
+    myEmitter.emit("event");
+    ```
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+12. ### Brief about S3 service in AWS?
 
     S3, a Simple Storage Service from Amazon. You can move your files TO and FROM S3. Its like a FTP storage. You can keep your SNAPSHOTS in S3. You can also ENCRYPT your sensitive data in S3.
 
     **[⬆ Back to Top](#table-of-contents)**
 
-12. ### What is CloudFront?
+13. ### What is CloudFront?
 
     Amazon CloudFront is a service that speeds up transfer of your static and dynamic web content such as HTML files, IMAGE files., etc., CloudFront delivers your particulars thru worldwide data centers named Edge Locations.
 
     **[⬆ Back to Top](#table-of-contents)**
 
-13. ### How do you safeguard your EC2 instances running in a VPC?
+14. ### How do you safeguard your EC2 instances running in a VPC?
 
     Security Groups can be used to protect your EC2 instances in a VPC. We can configure both INBOUND and OUTBOUND traffic in a Security Group which enables secured access to your EC2 instances. Security Group automatically denies any unauthorized access to your EC2 instances.
 
