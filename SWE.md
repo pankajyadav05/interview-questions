@@ -14,7 +14,7 @@
 | 8   | [What is Callback Hell?](#what-is-callback-hell)                                                                       |
 | 9   | [What is the purpose of setTimeout function?](#what-is-the-purpose-of-settimeout-function)                             |
 | 10  | [How can you listen on port 80 with Node?](#how-can-you-listen-on-port-80-with-node)                                   |
-| 11  | [What is an Event Emitter in Node.js?](#what-is-an-event-emitter-in-node)                                              |
+| 11  | [What is an Event Emitter in Node.js?](#what-is-an-event-emitter-in-node.js)                                           |
 |     | **AWS**                                                                                                                |
 | 12  | [Brief about S3 service in AWS?](#brief-about-s3-service-in-aws)                                                       |
 | 13  | [What is CloudFront?](#what-is-cloudfront)                                                                             |
