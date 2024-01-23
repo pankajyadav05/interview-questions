@@ -1,24 +1,28 @@
 ### Table of Contents
 
-| No. | Questions                                                                                                              |
-| --- | ---------------------------------------------------------------------------------------------------------------------- |
-|     | **React**                                                                                                              |
-| 1   | [What is Virtual DOM?](#what-is-virtual-dom)                                                                           |
-| 2   | [What is React lazy function?](#what-is-react-lazy-function)                                                           |
-| 3   | [Why does strict mode render twice in React?](#why-does-strict-mode-render-twice-in-react)                             |
-| 4   | [What is the difference between useState and useRef hook?](#what-is-the-difference-between-usestate-and-useref-hook)   |
-| 5   | [What is state mutation and how to prevent it?](#what-is-state-mutation-and-how-to-prevent-it)                         |
-| 6   | [What is suspense component?](#what-is-suspense-component)                                                             |
-|     | **Node.js**                                                                                                            |
-| 7   | [Is Node a single threaded application or multi-threaded?](#is-node-a-single-threaded-application-or-multi-threaded)   |
-| 8   | [What is Callback Hell?](#what-is-callback-hell)                                                                       |
-| 9   | [What is the purpose of setTimeout function?](#what-is-the-purpose-of-settimeout-function)                             |
-| 10  | [How can you listen on port 80 with Node?](#how-can-you-listen-on-port-80-with-node)                                   |
-| 11  | [What is an Event Emitter in Node.js?](#what-is-an-event-emitter-in-nodejs)                                            |
-|     | **AWS**                                                                                                                |
-| 12  | [Brief about S3 service in AWS?](#brief-about-s3-service-in-aws)                                                       |
-| 13  | [What is CloudFront?](#what-is-cloudfront)                                                                             |
-| 14  | [How do you safeguard your EC2 instances running in a VPC?](#how-do-you-safeguard-your-ec2-instances-running-in-a-vpc) |
+| No. | Questions                                                                                                                                                    |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|     | **React**                                                                                                                                                    |
+| 1   | [What is Virtual DOM?](#what-is-virtual-dom)                                                                                                                 |
+| 2   | [What is React lazy function?](#what-is-react-lazy-function)                                                                                                 |
+| 3   | [Why does strict mode render twice in React?](#why-does-strict-mode-render-twice-in-react)                                                                   |
+| 4   | [What is the difference between useState and useRef hook?](#what-is-the-difference-between-usestate-and-useref-hook)                                         |
+| 5   | [What is state mutation and how to prevent it?](#what-is-state-mutation-and-how-to-prevent-it)                                                               |
+| 6   | [What is suspense component?](#what-is-suspense-component)                                                                                                   |
+|     | **Node.js**                                                                                                                                                  |
+| 7   | [Is Node a single threaded application or multi-threaded?](#is-node-a-single-threaded-application-or-multi-threaded)                                         |
+| 8   | [What is Callback Hell?](#what-is-callback-hell)                                                                                                             |
+| 9   | [What is the purpose of setTimeout function?](#what-is-the-purpose-of-settimeout-function)                                                                   |
+| 10  | [How can you listen on port 80 with Node?](#how-can-you-listen-on-port-80-with-node)                                                                         |
+| 11  | [What is an Event Emitter in Node.js?](#what-is-an-event-emitter-in-nodejs)                                                                                  |
+|     | **AWS**                                                                                                                                                      |
+| 12  | [Brief about S3 service in AWS?](#brief-about-s3-service-in-aws)                                                                                             |
+| 13  | [What is CloudFront?](#what-is-cloudfront)                                                                                                                   |
+| 14  | [How do you safeguard your EC2 instances running in a VPC?](#how-do-you-safeguard-your-ec2-instances-running-in-a-vpc)                                       |
+|     | **GCP**                                                                                                                                                      |
+| 15  | [What is the Function of a Bucket in Google Cloud Storage?](#what-is-the-function-of-a-bucket-in-google-cloud-storage)                                       |
+| 16  | [What is "Virtual Private Cloud" (VPC) when referring to Google Cloud Platform?](#what-is-virtual-private-cloud-vpc-when-referring-to-google-cloud-platform) |
+| 17  | [What does it mean to have "binary authorization" in the Google cloud?](#what-does-it-mean-to-have-binary-authorization-in-the-google-cloud)                 |
 
 1. ### What is Virtual DOM?
 
@@ -189,5 +193,23 @@
 14. ### How do you safeguard your EC2 instances running in a VPC?
 
     Security Groups can be used to protect your EC2 instances in a VPC. We can configure both INBOUND and OUTBOUND traffic in a Security Group which enables secured access to your EC2 instances. Security Group automatically denies any unauthorized access to your EC2 instances.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+15. ### What is the Function of a Bucket in Google Cloud Storage?
+
+    "Buckets" are the most straightforward containers that may be used to hold information. Any data that is stored in Cloud Storage must first be organized into a bucket. There is no restriction on the number of buckets that can be added.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+16. ### What is "Virtual Private Cloud" (VPC) when referring to Google Cloud Platform?
+
+    Through the use of a Virtual Private Cloud, Google Cloud Platform (GCP) virtual machine (VM) instances, Google Kubernetes Engine (GKE) clusters, and other resources will be able to connect with one another. The VPC gives users a great deal of wiggle room in terms of regulating regional and global workload connectivity. Without having to rely on the public internet, virtual private networks (VPCs) make it possible for multiple regions to communicate with one another.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+17. ### What does it mean to have "binary authorization" in the Google cloud?
+
+    The Binary Authorization is utilized by both Google Kubernetes Engine (GKE) and Cloud Run to verify that only legitimate container images are deployed. This is done to prevent any errors from occurring. Binary Authorization enables us to enforce signature validation during the deployment phase.
 
     **[⬆ Back to Top](#table-of-contents)**
