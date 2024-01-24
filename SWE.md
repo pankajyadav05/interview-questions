@@ -23,6 +23,10 @@
 | 15  | [What is the Function of a Bucket in Google Cloud Storage?](#what-is-the-function-of-a-bucket-in-google-cloud-storage)                                       |
 | 16  | [What is "Virtual Private Cloud" (VPC) when referring to Google Cloud Platform?](#what-is-virtual-private-cloud-vpc-when-referring-to-google-cloud-platform) |
 | 17  | [What does it mean to have "binary authorization" in the Google cloud?](#what-does-it-mean-to-have-binary-authorization-in-the-google-cloud)                 |
+|     | **Azure**                                                                                                                                                    |
+| 18  | [What is Azure Active Directory (Azure AD)?](#what-is-azure-active-directory-azure-ad)                                                                       |
+| 19  | [What is a role instance in Azure?](#what-is-a-role-instance-in-azure)                                                                                       |
+| 20  | [Why should you use Azure CDN?](#why-should-you-use-azure-cdn)                                                                                               |
 
 1. ### What is Virtual DOM?
 
@@ -211,5 +215,23 @@
 17. ### What does it mean to have "binary authorization" in the Google cloud?
 
     The Binary Authorization is utilized by both Google Kubernetes Engine (GKE) and Cloud Run to verify that only legitimate container images are deployed. This is done to prevent any errors from occurring. Binary Authorization enables us to enforce signature validation during the deployment phase.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+18. ### What is Azure Active Directory (Azure AD)?
+
+    Azure DevOps is a SaaS platform that provides development services for creating work plans, working together on code, developing applications, and deploying them. It offers an end-to-end DevOps toolchain for the development and deployment of software. It integrates with a number of popular tools in the market and is a great way for setting up a DevOps toolchain.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+19. ### What is a role instance in Azure?
+
+    Role instance is a virtual machine where application code is run using running role configurations. Multiple instances of a role are also possible according to the definition in cloud service configuration files.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+20. ### Why should you use Azure CDN?
+
+    Azure CDN reduces the bandwidth and load time. It also helps speed up the responsiveness.
 
     **[⬆ Back to Top](#table-of-contents)**
