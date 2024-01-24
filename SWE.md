@@ -220,7 +220,16 @@
 
 18. ### What is Azure Active Directory (Azure AD)?
 
-    Azure DevOps is a SaaS platform that provides development services for creating work plans, working together on code, developing applications, and deploying them. It offers an end-to-end DevOps toolchain for the development and deployment of software. It integrates with a number of popular tools in the market and is a great way for setting up a DevOps toolchain.
+    Azure AD is a cloud-based IAM solution and directory by Microsoft. It brings together application access management, core directory services, and identity protection and turns them into a single solution. It helps employees of an organization sign in and access resources such as:
+
+    1. External resources, including Microsoft 365, the Azure portal, and a big number of SaaS applications
+    2. Internal resources, such as apps on a corporate network and intranet, as well as any cloud-based apps built by that organization.
+
+    Azure AD is intended for use by:
+
+    1. IT Admins
+    2. App Developers
+    3. Azure, Office 365, Microsoft 365, or Dynamics CRM online subscribers
 
     **[⬆ Back to Top](#table-of-contents)**
 
