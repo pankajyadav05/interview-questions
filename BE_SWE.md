@@ -196,11 +196,11 @@
 
     The following tools can be used to minimize DDoS attacks on AWS services:
 
-    1. AWS Shield
-    2. AWS Waf
-    3. Amazon CloudFront
-    4. ELB
-    5. Virtual Private Cloud (VPC)
+    - AWS Shield
+    - AWS Waf
+    - Amazon CloudFront
+    - ELB
+    - Virtual Private Cloud (VPC)
 
     **[⬆ Back to Top](#table-of-contents)**
 
