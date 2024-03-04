@@ -89,11 +89,7 @@
 
 **Question:** What are the types of tensors available in TensorFlow?
 
-**Answer:** There are three main types of tensors:
-
-        - Constant tensors
-        - Variable tensors
-        - Placeholder tensors
+**Answer:** There are three main types of tensors: - Constant tensors - Variable tensors - Placeholder tensors
 
 [↑ Scroll to Top](#interview-questions-guide)
 
