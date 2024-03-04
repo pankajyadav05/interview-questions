@@ -91,9 +91,9 @@
 
 **Answer:** There are three main types of tensors:
 
-        -Constant tensors
-        -Variable tensors
-        -Placeholder tensors
+        1. Constant tensors
+        2. Variable tensors
+        3. Placeholder tensors
 
 [↑ Scroll to Top](#interview-questions-guide)
 
