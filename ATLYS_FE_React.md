@@ -53,7 +53,7 @@ The Context API allows you to pass data through the component tree without manua
 
 ### 4. What is the difference between Controlled and Uncontrolled Components in React?
 
-    Controlled components are those where the component's state is fully managed by React, usually through props. Uncontrolled components manage their own state internally, and you need to query the DOM to get their values when needed.
+Controlled components are those where the component's state is fully managed by React, usually through props. Uncontrolled components manage their own state internally, and you need to query the DOM to get their values when needed.
 
 [↑ Scroll to Top](#interview-questions-guide)
 
